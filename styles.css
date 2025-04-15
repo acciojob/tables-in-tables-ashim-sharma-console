@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+ body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .main {
+            width: 700px;
+            border: 2px solid black;
+        }
+        .main td {
+            width: 50%;
+            vertical-align: top;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .nested {
+            width: 100%;
+            border: 2px solid black;
+        }
+        .nested th, .nested td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        .nested th {
+            background-color: #f8f8f8;
+            font-weight: bold;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            text-align: left;
+        }
+        .black-cell {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        a {
+            color: purple;
+            text-decoration: underline;
+        }
